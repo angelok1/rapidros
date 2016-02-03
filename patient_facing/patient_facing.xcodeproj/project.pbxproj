@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174733311BDC5BBC00541CBF /* ROSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174733301BDC5BBC00541CBF /* ROSTableViewController.swift */; };
+		174733331BDC5F9F00541CBF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174733321BDC5F9F00541CBF /* Question.swift */; };
+		174733351BDC607800541CBF /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174733341BDC607800541CBF /* QuestionCell.swift */; };
+		176B118C1BDC1AEE0086912D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B118B1BDC1AEE0086912D /* AppDelegate.swift */; };
+		176B11911BDC1AEE0086912D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176B118F1BDC1AEE0086912D /* Main.storyboard */; };
+		176B11931BDC1AEE0086912D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176B11921BDC1AEE0086912D /* Assets.xcassets */; };
+		176B11961BDC1AEE0086912D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176B11941BDC1AEE0086912D /* LaunchScreen.storyboard */; };
+		176B119E1BDC21A60086912D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B119D1BDC21A60086912D /* TableViewCell.swift */; };
+		176B11A91BDC37260086912D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B11A81BDC37260086912D /* MasterViewController.swift */; };
+		176B11AF1BDC384A0086912D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176B11AE1BDC384A0086912D /* CoreText.framework */; };
+		176B11BF1BDC3F200086912D /* SBGestureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B11BB1BDC3F200086912D /* SBGestureTableView.swift */; };
+		176B11C01BDC3F200086912D /* SBGestureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B11BC1BDC3F200086912D /* SBGestureTableViewCell.swift */; };
+		176B11C11BDC3F200086912D /* SBGestureTableViewCellAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B11BD1BDC3F200086912D /* SBGestureTableViewCellAction.swift */; };
+		176B11C21BDC3F200086912D /* SBGestureTableViewCellSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B11BE1BDC3F200086912D /* SBGestureTableViewCellSideView.swift */; };
+		1796AE871BDC520D004BDE5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1796AE861BDC520D004BDE5A /* UIKit.framework */; };
+		1796AE891BDC5214004BDE5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1796AE881BDC5214004BDE5A /* Foundation.framework */; };
+		FC47F83C27C2244361294D37 /* libPods-patient_facing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CE51118A9EF33497846BFB /* libPods-patient_facing.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174733301BDC5BBC00541CBF /* ROSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ROSTableViewController.swift; sourceTree = "<group>"; };
+		174733321BDC5F9F00541CBF /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		174733341BDC607800541CBF /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		176B11881BDC1AEE0086912D /* patient_facing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patient_facing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176B118B1BDC1AEE0086912D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		176B11901BDC1AEE0086912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		176B11921BDC1AEE0086912D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176B11951BDC1AEE0086912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		176B11971BDC1AEE0086912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176B119D1BDC21A60086912D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		176B11A81BDC37260086912D /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		176B11AE1BDC384A0086912D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		176B11B11BDC3A470086912D /* patient_facing-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patient_facing-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		176B11BB1BDC3F200086912D /* SBGestureTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableView.swift; sourceTree = "<group>"; };
+		176B11BC1BDC3F200086912D /* SBGestureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCell.swift; sourceTree = "<group>"; };
+		176B11BD1BDC3F200086912D /* SBGestureTableViewCellAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCellAction.swift; sourceTree = "<group>"; };
+		176B11BE1BDC3F200086912D /* SBGestureTableViewCellSideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBGestureTableViewCellSideView.swift; sourceTree = "<group>"; };
+		1796AE861BDC520D004BDE5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1796AE881BDC5214004BDE5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A78409DDD13B19DEA40727A /* Pods-patient_facing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patient_facing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-patient_facing/Pods-patient_facing.debug.xcconfig"; sourceTree = "<group>"; };
+		CC882DC1652AE73726F7A0C1 /* Pods-patient_facing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-patient_facing.release.xcconfig"; path = "Pods/Target Support Files/Pods-patient_facing/Pods-patient_facing.release.xcconfig"; sourceTree = "<group>"; };
+		D7CE51118A9EF33497846BFB /* libPods-patient_facing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-patient_facing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176B11851BDC1AEE0086912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1796AE891BDC5214004BDE5A /* Foundation.framework in Frameworks */,
+				1796AE871BDC520D004BDE5A /* UIKit.framework in Frameworks */,
+				176B11AF1BDC384A0086912D /* CoreText.framework in Frameworks */,
+				FC47F83C27C2244361294D37 /* libPods-patient_facing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176B117F1BDC1AEE0086912D = {
+			isa = PBXGroup;
+			children = (
+				1796AE881BDC5214004BDE5A /* Foundation.framework */,
+				1796AE861BDC520D004BDE5A /* UIKit.framework */,
+				176B11AE1BDC384A0086912D /* CoreText.framework */,
+				176B118A1BDC1AEE0086912D /* patient_facing */,
+				176B11891BDC1AEE0086912D /* Products */,
+				D227B78CDD01D97AB76D3A46 /* Pods */,
+				5431187A8EF86FC4B11D7A2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		176B11891BDC1AEE0086912D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176B11881BDC1AEE0086912D /* patient_facing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176B118A1BDC1AEE0086912D /* patient_facing */ = {
+			isa = PBXGroup;
+			children = (
+				176B11BB1BDC3F200086912D /* SBGestureTableView.swift */,
+				176B11BC1BDC3F200086912D /* SBGestureTableViewCell.swift */,
+				176B11BD1BDC3F200086912D /* SBGestureTableViewCellAction.swift */,
+				176B11BE1BDC3F200086912D /* SBGestureTableViewCellSideView.swift */,
+				176B11B11BDC3A470086912D /* patient_facing-Swift-Bridging-Header.h */,
+				176B11A81BDC37260086912D /* MasterViewController.swift */,
+				176B118B1BDC1AEE0086912D /* AppDelegate.swift */,
+				176B118F1BDC1AEE0086912D /* Main.storyboard */,
+				176B11921BDC1AEE0086912D /* Assets.xcassets */,
+				176B11941BDC1AEE0086912D /* LaunchScreen.storyboard */,
+				176B11971BDC1AEE0086912D /* Info.plist */,
+				176B119D1BDC21A60086912D /* TableViewCell.swift */,
+				174733301BDC5BBC00541CBF /* ROSTableViewController.swift */,
+				174733321BDC5F9F00541CBF /* Question.swift */,
+				174733341BDC607800541CBF /* QuestionCell.swift */,
+			);
+			path = patient_facing;
+			sourceTree = "<group>";
+		};
+		5431187A8EF86FC4B11D7A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7CE51118A9EF33497846BFB /* libPods-patient_facing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D227B78CDD01D97AB76D3A46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A78409DDD13B19DEA40727A /* Pods-patient_facing.debug.xcconfig */,
+				CC882DC1652AE73726F7A0C1 /* Pods-patient_facing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176B11871BDC1AEE0086912D /* patient_facing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176B119A1BDC1AEE0086912D /* Build configuration list for PBXNativeTarget "patient_facing" */;
+			buildPhases = (
+				7E7D4B596CF818AC8AECE522 /* Check Pods Manifest.lock */,
+				176B11841BDC1AEE0086912D /* Sources */,
+				176B11851BDC1AEE0086912D /* Frameworks */,
+				176B11861BDC1AEE0086912D /* Resources */,
+				C754C43654973E3215520C85 /* Embed Pods Frameworks */,
+				570AB8A4569CB1437DD7B250 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = patient_facing;
+			productName = patient_facing;
+			productReference = 176B11881BDC1AEE0086912D /* patient_facing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176B11801BDC1AEE0086912D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Bravado;
+				TargetAttributes = {
+					176B11871BDC1AEE0086912D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 176B11831BDC1AEE0086912D /* Build configuration list for PBXProject "patient_facing" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 176B117F1BDC1AEE0086912D;
+			productRefGroup = 176B11891BDC1AEE0086912D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176B11871BDC1AEE0086912D /* patient_facing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176B11861BDC1AEE0086912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B11961BDC1AEE0086912D /* LaunchScreen.storyboard in Resources */,
+				176B11931BDC1AEE0086912D /* Assets.xcassets in Resources */,
+				176B11911BDC1AEE0086912D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		570AB8A4569CB1437DD7B250 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-patient_facing/Pods-patient_facing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7D4B596CF818AC8AECE522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C754C43654973E3215520C85 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-patient_facing/Pods-patient_facing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176B11841BDC1AEE0086912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B11A91BDC37260086912D /* MasterViewController.swift in Sources */,
+				174733311BDC5BBC00541CBF /* ROSTableViewController.swift in Sources */,
+				176B119E1BDC21A60086912D /* TableViewCell.swift in Sources */,
+				174733331BDC5F9F00541CBF /* Question.swift in Sources */,
+				176B11C01BDC3F200086912D /* SBGestureTableViewCell.swift in Sources */,
+				176B11C11BDC3F200086912D /* SBGestureTableViewCellAction.swift in Sources */,
+				176B118C1BDC1AEE0086912D /* AppDelegate.swift in Sources */,
+				176B11C21BDC3F200086912D /* SBGestureTableViewCellSideView.swift in Sources */,
+				176B11BF1BDC3F200086912D /* SBGestureTableView.swift in Sources */,
+				174733351BDC607800541CBF /* QuestionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		176B118F1BDC1AEE0086912D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176B11901BDC1AEE0086912D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		176B11941BDC1AEE0086912D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176B11951BDC1AEE0086912D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176B11981BDC1AEE0086912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		176B11991BDC1AEE0086912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176B119B1BDC1AEE0086912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A78409DDD13B19DEA40727A /* Pods-patient_facing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = patient_facing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravado.patient-facing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./patient_facing/patient_facing-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		176B119C1BDC1AEE0086912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC882DC1652AE73726F7A0C1 /* Pods-patient_facing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = patient_facing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bravado.patient-facing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./patient_facing/patient_facing-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176B11831BDC1AEE0086912D /* Build configuration list for PBXProject "patient_facing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B11981BDC1AEE0086912D /* Debug */,
+				176B11991BDC1AEE0086912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176B119A1BDC1AEE0086912D /* Build configuration list for PBXNativeTarget "patient_facing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B119B1BDC1AEE0086912D /* Debug */,
+				176B119C1BDC1AEE0086912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176B11801BDC1AEE0086912D /* Project object */;
+}

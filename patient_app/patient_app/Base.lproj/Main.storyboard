@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="patient_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had a fever recently?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rct-Be-sZU">
+                                <rect key="frame" x="43" y="91" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Infectious" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6N-tw-90p">
+                                <rect key="frame" x="22" y="62" width="90" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you lost weight recenty?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCs-Qi-DXa">
+                                <rect key="frame" x="43" y="120" width="539" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you felt dizzy recently?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzd-YR-ARs">
+                                <rect key="frame" x="43" y="149" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had a runny nose or congestion?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SH-Si-6oy">
+                                <rect key="frame" x="43" y="178" width="539" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had any difficulty peeing?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FL1-eo-gze">
+                                <rect key="frame" x="43" y="207" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you felt tired recenty?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfX-cG-5fM">
+                                <rect key="frame" x="40" y="472" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="General" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdP-aE-DTE">
+                                <rect key="frame" x="19" y="443" width="90" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had loss of appetite recently?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTu-D1-2w5">
+                                <rect key="frame" x="40" y="501" width="542" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had any recent vomiting?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="la9-ZD-IcM">
+                                <rect key="frame" x="40" y="530" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had any changes in your bowel habits?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8H-1B-KeR">
+                                <rect key="frame" x="40" y="559" width="542" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANz-a9-4g3" userLabel="buttonQ1Y">
+                                <rect key="frame" x="495" y="87" width="30" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="buttonQ1Y"/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ1Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rUr-Nr-YaX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4b-e6-6Vo">
+                                <rect key="frame" x="495" y="116" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ2Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v7c-C5-fXT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ANd-YE-ygF">
+                                <rect key="frame" x="495" y="145" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ3Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S89-wR-aJV"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3G6-eK-cvt" userLabel="imageQ2Y">
+                                <rect key="frame" x="478" y="112" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3D-ju-wPq">
+                                <rect key="frame" x="495" y="174" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ4Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jys-KC-pjQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htl-zX-odp">
+                                <rect key="frame" x="495" y="203" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ5Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h9u-gv-mDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roy-7L-lID">
+                                <rect key="frame" x="495" y="468" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ10Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iJP-VR-o2a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRe-mk-Nor">
+                                <rect key="frame" x="495" y="497" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ11Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LcW-J1-mDA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdh-2b-xrp">
+                                <rect key="frame" x="495" y="526" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ12Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBS-Se-u7F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYB-Qr-JLG">
+                                <rect key="frame" x="495" y="555" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ13Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gkx-1r-4PX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2n6-hj-omF">
+                                <rect key="frame" x="552" y="87" width="30" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="buttonQ1N"/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ1Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wSF-nk-Obz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bof-07-IiL">
+                                <rect key="frame" x="552" y="116" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ2Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHz-tF-aJX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oa3-PC-7Xh">
+                                <rect key="frame" x="552" y="145" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ3Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h6D-aR-Snx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSY-h5-xYJ">
+                                <rect key="frame" x="552" y="174" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ4Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vNQ-bb-KIk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVn-kP-YC8">
+                                <rect key="frame" x="552" y="203" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ5Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="06j-QR-Zo9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iS-EZ-HR5">
+                                <rect key="frame" x="552" y="468" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ10Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5X-5N-zAu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZC-dG-91T">
+                                <rect key="frame" x="552" y="497" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ11Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEr-yV-rHO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fw9-EB-iaI">
+                                <rect key="frame" x="552" y="526" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ12Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icE-7K-0I6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0z-Ig-cSG">
+                                <rect key="frame" x="552" y="555" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ13Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l2w-7d-YyG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbn-9R-cKf">
+                                <rect key="frame" x="114" y="58" width="124" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="infectiousYAll"/>
+                                <state key="normal" title="(Yes to remaining)"/>
+                                <connections>
+                                    <action selector="buttonInfectiousYesToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4h-nx-ygg"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="suH-UZ-xYg" userLabel="imageQ1Y">
+                                <rect key="frame" x="478" y="83" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="NON-5h-ZU3" userLabel="imageQ3Y">
+                                <rect key="frame" x="477" y="143" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ka5-sP-VIG" userLabel="imageQ4Y">
+                                <rect key="frame" x="478" y="170" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="VxY-II-ePZ" userLabel="imageQ5Y">
+                                <rect key="frame" x="477" y="201" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Gfu-Bp-YWA" userLabel="imageQ10Y">
+                                <rect key="frame" x="477" y="466" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="tIB-F2-wN4" userLabel="imageQ11Y">
+                                <rect key="frame" x="477" y="495" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="xiv-fi-osd" userLabel="imageQ12Y">
+                                <rect key="frame" x="477" y="524" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="BQ5-My-fC0" userLabel="imageQ13Y">
+                                <rect key="frame" x="477" y="553" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-by-fnz" userLabel="imageQ13N">
+                                <rect key="frame" x="533" y="553" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="arN-ek-gug" userLabel="imageQ12N">
+                                <rect key="frame" x="533" y="526" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="myZ-Qg-7nZ" userLabel="imageQ11N">
+                                <rect key="frame" x="533" y="497" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="N3V-eG-K5H" userLabel="imageQ10N">
+                                <rect key="frame" x="534" y="468" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="0KF-W8-TOR" userLabel="imageQ5N">
+                                <rect key="frame" x="533" y="203" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Dvt-CF-IV1" userLabel="imageQ3N">
+                                <rect key="frame" x="533" y="143" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="zIw-AB-Upw" userLabel="imageQ2N">
+                                <rect key="frame" x="534" y="112" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="WAE-EQ-YLN" userLabel="imageQ1N">
+                                <rect key="frame" x="533" y="83" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="JVF-xt-p6J" userLabel="imageQ4N">
+                                <rect key="frame" x="533" y="170" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZu-BZ-vOy">
+                                <rect key="frame" x="243" y="58" width="119" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="infectiousNAll"/>
+                                <state key="normal" title="(No to remaining)"/>
+                                <connections>
+                                    <action selector="buttonInfectiousNoToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dzq-kY-hwx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdz-AG-CTT">
+                                <rect key="frame" x="114" y="439" width="124" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="generalYAll"/>
+                                <state key="normal" title="(Yes to remaining)"/>
+                                <connections>
+                                    <action selector="buttonAbdomenYesToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nOa-g9-8dj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylM-0j-SRl">
+                                <rect key="frame" x="243" y="439" width="119" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="generalNAll"/>
+                                <state key="normal" title="(No to remaining)"/>
+                                <connections>
+                                    <action selector="buttonAbdomenNoToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jT7-YB-qzj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xr-s0-wYw">
+                                <rect key="frame" x="528" y="20" width="71" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="buttonStartOverAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aL8-JZ-XY0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you had any pain in your chest?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygH-tg-dEJ">
+                                <rect key="frame" x="43" y="295" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqB-Kh-rOI">
+                                <rect key="frame" x="22" y="266" width="90" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you experienced difficulty breathing?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG1-ye-gWA">
+                                <rect key="frame" x="42" y="324" width="540" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Have you been coughing recently?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe9-9J-m0C">
+                                <rect key="frame" x="43" y="353" width="287" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To your knowledge, have you been wheezing?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VsA-sg-bup">
+                                <rect key="frame" x="43" y="382" width="539" height="21"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.045135720802919707" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScX-OC-EVI">
+                                <rect key="frame" x="495" y="291" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ6Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OGJ-m7-C4g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdg-bL-cks">
+                                <rect key="frame" x="495" y="320" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ7Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZeF-0K-58H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aps-U4-yPV">
+                                <rect key="frame" x="495" y="349" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ8Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jTk-nR-9w5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4b-Jb-gjy">
+                                <rect key="frame" x="495" y="378" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Yes"/>
+                                <connections>
+                                    <action selector="buttonQ9Yclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wab-ok-9YV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDm-KL-IV4">
+                                <rect key="frame" x="552" y="291" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ6Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zwF-oF-JyQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62K-1f-qht">
+                                <rect key="frame" x="552" y="320" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ7Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vJg-hP-jAK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wce-df-18k">
+                                <rect key="frame" x="552" y="349" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ8Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLO-eK-NgL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yte-nE-d44">
+                                <rect key="frame" x="552" y="378" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="No"/>
+                                <connections>
+                                    <action selector="buttonQ9Nclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="470-Ne-LKG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMx-RK-9SL">
+                                <rect key="frame" x="243" y="262" width="119" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="chestNAll"/>
+                                <state key="normal" title="(No to remaining)"/>
+                                <connections>
+                                    <action selector="buttonChestNoToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uuI-cp-1GA"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="UzQ-24-Edc" userLabel="imageQ6Y">
+                                <rect key="frame" x="477" y="289" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="a9Z-hD-ZiM" userLabel="imageQ7Y">
+                                <rect key="frame" x="478" y="320" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="IvO-Fj-iv2" userLabel="imageQ8Y">
+                                <rect key="frame" x="478" y="347" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="JdM-I2-M2s" userLabel="imageQ9Y">
+                                <rect key="frame" x="477" y="378" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="SIE-Ub-Jwo" userLabel="imageQ9N">
+                                <rect key="frame" x="533" y="378" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="d5d-Bi-ABS" userLabel="imageQ8N">
+                                <rect key="frame" x="533" y="349" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-8N-a4q" userLabel="imageQ7N">
+                                <rect key="frame" x="533" y="320" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="u2N-gg-yJo" userLabel="imageQ6N">
+                                <rect key="frame" x="533" y="289" width="66" height="34"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxR-AO-v4V">
+                                <rect key="frame" x="114" y="262" width="124" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" label="chestYAll"/>
+                                <state key="normal" title="(Yes to remaining)"/>
+                                <connections>
+                                    <action selector="buttonChestYesToAllclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OMG-P5-vq7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonQ10N" destination="7iS-EZ-HR5" id="V6y-2x-W19"/>
+                        <outlet property="buttonQ10Y" destination="roy-7L-lID" id="RMN-VY-5D9"/>
+                        <outlet property="buttonQ11N" destination="EZC-dG-91T" id="58T-XY-NH5"/>
+                        <outlet property="buttonQ11Y" destination="fRe-mk-Nor" id="RsV-9m-xj0"/>
+                        <outlet property="buttonQ12N" destination="Fw9-EB-iaI" id="Ral-hm-7LU"/>
+                        <outlet property="buttonQ12Y" destination="hdh-2b-xrp" id="gJl-MF-34M"/>
+                        <outlet property="buttonQ13N" destination="c0z-Ig-cSG" id="rA4-Nq-eGL"/>
+                        <outlet property="buttonQ13Y" destination="RYB-Qr-JLG" id="Lsr-RZ-koI"/>
+                        <outlet property="buttonQ1N" destination="2n6-hj-omF" id="NNo-B5-o11"/>
+                        <outlet property="buttonQ1Y" destination="ANz-a9-4g3" id="TcC-hc-iDM"/>
+                        <outlet property="buttonQ2N" destination="bof-07-IiL" id="ZZv-lh-WEu"/>
+                        <outlet property="buttonQ2Y" destination="t4b-e6-6Vo" id="BGP-8H-1FC"/>
+                        <outlet property="buttonQ3N" destination="Oa3-PC-7Xh" id="91e-im-q1w"/>
+                        <outlet property="buttonQ3Y" destination="ANd-YE-ygF" id="9LK-2M-s9f"/>
+                        <outlet property="buttonQ4N" destination="FSY-h5-xYJ" id="WcE-ai-8xq"/>
+                        <outlet property="buttonQ4Y" destination="r3D-ju-wPq" id="M6T-jf-QUo"/>
+                        <outlet property="buttonQ5N" destination="WVn-kP-YC8" id="Z9l-n8-xYi"/>
+                        <outlet property="buttonQ5Y" destination="htl-zX-odp" id="U05-Of-XTf"/>
+                        <outlet property="buttonQ6N" destination="WDm-KL-IV4" id="xuc-5u-nPy"/>
+                        <outlet property="buttonQ6Y" destination="ScX-OC-EVI" id="K8Q-bz-9bg"/>
+                        <outlet property="buttonQ7N" destination="62K-1f-qht" id="MSh-aP-zMn"/>
+                        <outlet property="buttonQ7Y" destination="wdg-bL-cks" id="toU-a2-pss"/>
+                        <outlet property="buttonQ8N" destination="wce-df-18k" id="vXG-Qj-LHl"/>
+                        <outlet property="buttonQ8Y" destination="aps-U4-yPV" id="KvB-UP-Pc5"/>
+                        <outlet property="buttonQ9N" destination="Yte-nE-d44" id="vnH-38-WUC"/>
+                        <outlet property="buttonQ9Y" destination="Z4b-Jb-gjy" id="VwA-oH-7iv"/>
+                        <outlet property="imageQ10N" destination="N3V-eG-K5H" id="nCW-qB-pxf"/>
+                        <outlet property="imageQ10Y" destination="Gfu-Bp-YWA" id="VyA-dY-LQx"/>
+                        <outlet property="imageQ11N" destination="myZ-Qg-7nZ" id="hYd-lR-LR1"/>
+                        <outlet property="imageQ11Y" destination="tIB-F2-wN4" id="DwE-HD-NDt"/>
+                        <outlet property="imageQ12N" destination="arN-ek-gug" id="1ki-yQ-T6v"/>
+                        <outlet property="imageQ12Y" destination="xiv-fi-osd" id="LAf-Xa-SEW"/>
+                        <outlet property="imageQ13N" destination="vxg-by-fnz" id="IXK-G8-zrU"/>
+                        <outlet property="imageQ13Y" destination="BQ5-My-fC0" id="mWE-VB-1Uh"/>
+                        <outlet property="imageQ1N" destination="WAE-EQ-YLN" id="AQG-kg-iq9"/>
+                        <outlet property="imageQ1Y" destination="suH-UZ-xYg" id="WX9-MD-TxA"/>
+                        <outlet property="imageQ2N" destination="zIw-AB-Upw" id="7Qe-F0-e84"/>
+                        <outlet property="imageQ2Y" destination="3G6-eK-cvt" id="d3f-b5-6pA"/>
+                        <outlet property="imageQ3N" destination="Dvt-CF-IV1" id="yFF-id-HU6"/>
+                        <outlet property="imageQ3Y" destination="NON-5h-ZU3" id="Cv1-n1-YtU"/>
+                        <outlet property="imageQ4N" destination="JVF-xt-p6J" id="u5f-La-Y3D"/>
+                        <outlet property="imageQ4Y" destination="ka5-sP-VIG" id="Zuo-Vl-f1o"/>
+                        <outlet property="imageQ5N" destination="0KF-W8-TOR" id="yVG-NC-XbI"/>
+                        <outlet property="imageQ5Y" destination="VxY-II-ePZ" id="1kc-0j-rSy"/>
+                        <outlet property="imageQ6N" destination="u2N-gg-yJo" id="Nq8-g8-ad6"/>
+                        <outlet property="imageQ6Y" destination="UzQ-24-Edc" id="o63-gu-id6"/>
+                        <outlet property="imageQ7N" destination="7vO-8N-a4q" id="Z4S-TN-njN"/>
+                        <outlet property="imageQ7Y" destination="a9Z-hD-ZiM" id="C2Z-lx-cdG"/>
+                        <outlet property="imageQ8N" destination="d5d-Bi-ABS" id="8nH-Ap-uYh"/>
+                        <outlet property="imageQ8Y" destination="IvO-Fj-iv2" id="CwV-Oa-Q4p"/>
+                        <outlet property="imageQ9N" destination="SIE-Ub-Jwo" id="Aef-Gl-kpM"/>
+                        <outlet property="imageQ9Y" destination="JdM-I2-M2s" id="TLW-Mj-ypy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="814" height="379"/>
+    </resources>
+</document>
